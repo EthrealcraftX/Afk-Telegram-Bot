@@ -1,5 +1,24 @@
 # 🛡️ Minecraft AFK Manager Telegram Bot
 
+<p align="center">
+  <a href="https://t.me/avtoserverbot" target="_blank">
+    <img src="https://img.shields.io/badge/Telegram-Bot-2CA5E0?style=for-the-badge&logo=telegram" alt="Telegram Bot">
+  </a>
+  <a href="https://t.me/HypePath" target="_blank">
+    <img src="https://img.shields.io/badge/Telegram-Channel-2CA5E0?style=for-the-badge&logo=telegram" alt="Telegram Channel">
+  </a>
+  <a href="https://instagram.com/EthrealCarftX" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+  </a>
+  <a href="https://www.minecraft.net/en-us/download/server" target="_blank">
+  <img src="https://img.shields.io/badge/Minecraft-Server%20Download-green?style=for-the-badge&logo=minecraft&logoColor=white" alt="Download Minecraft Server">
+</a>
+<a href="https://nodejs.org/en/download" target="_blank">
+  <img src="https://img.shields.io/badge/Node.js-Download%20Latest-brightgreen?style=for-the-badge&logo=node.js&logoColor=white" alt="Download Node.js">
+</a>
+
+</p>
+
 This is a **Telegram bot** designed to manage **AFK bots for Minecraft servers**, supporting both **Java** and **Bedrock editions**. It interacts with your Minecraft AFK Project Management API and allows server admins to deploy, list, and manage AFK instances directly from Telegram.
 
 ---
@@ -12,7 +31,7 @@ This is a **Telegram bot** designed to manage **AFK bots for Minecraft servers**
 There's also config file please check that out   
   
 
-2. You can get the API_TOKEN by launching the AFK Manager Website API.
+2. You can get the API_TOKEN by launching the <a href="https://github.com/EthrealcraftX/Minecraft-java-bedrock-Afk-bot-website.git">AFK Manager Website API<a/>
 
 
 3. Optional: Customize bot behavior inside the config/ folder if needed.
