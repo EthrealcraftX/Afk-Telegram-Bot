@@ -1,0 +1,12 @@
+{
+  "adminId": 5732326881,
+  "admins": [
+    5732326881,
+    5732326881
+  ],
+  "forceChannel": "@HypePath",
+  "enableForceSub": true,
+  "maxProjectsPerUser": 2,
+  "autoDeleteAfterHours": 3,
+  "apiToken": "8e0dfe5278dff29cdb86f54b2c4678fdf1ee5854dfd691b7"
+}
