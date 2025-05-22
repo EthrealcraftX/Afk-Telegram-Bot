@@ -1,28 +1,71 @@
-**Minecraft afk manager telegram bot**
+# 🛡️ Minecraft AFK Manager Telegram Bot
 
-<h1>📑Configuration</h1>
+This is a **Telegram bot** designed to manage **AFK bots for Minecraft servers**, supporting both **Java** and **Bedrock editions**. It interacts with your Minecraft AFK Project Management API and allows server admins to deploy, list, and manage AFK instances directly from Telegram.
 
-1. .env you have to paste Api token
-2. you can take api token from console by running server.js(you can install from https://github.com/EthrealcraftX/Minecraft-java-bedrock-Afk-bot-website.git)
-3. you have to also change some configuration on config folder.
+---
+
+## ⚙️ Configuration
+
+1. Create a `.env` file in the root directory:
+   ```env
+   BOT_TOKEN=your_telegram_bot_token
+There's also config file please check that out   
+  
+
+2. You can get the API_TOKEN by launching the AFK Manager Website API.
+
+
+3. Optional: Customize bot behavior inside the config/ folder if needed.
 
 
 
-<h1>📥installation</h1>
+📥 Installation
 
-```bash
-git clone https://github.com/EthrealcraftX/Afk-Telegram-Bo.git
+git clone https://github.com/EthrealcraftX/Afk-Telegram-Bot.git
 cd Afk-Telegram-Bot
+npm install
 node bot.js
-```
 
-<h1>Bot commands</h1>
-1. /start
-2. /create
-3. /projects
-4. /help
-- 🛡️ Admin commands
-5. /projectall
-6. /settings (currently not working!)
-7. /sethelp
-8. /broadcast (there is still some bags in that command if you understand please fix it before run!)
+
+💬 Bot Commands
+
+User Commands:
+
+/start – Welcome message
+
+/create – Start a new AFK bot creation wizard
+
+/projects – List your active AFK projects
+
+/help – Show help info
+
+
+🛠 Admin Commands:
+
+/projectall – View all existing projects (admin only)
+
+/settings – (under development)
+
+/sethelp – Update the help message
+
+/broadcast – Send a message to all users
+(⚠️ This command may still contain bugs – review before using in production.)
+
+
+
+📦 Dependencies
+
+telegraf
+
+dotenv
+
+axios
+
+Optionally any other utility from the website project (for auth or logging)
+
+
+
+✅ Contribution
+
+Pull requests are welcome!
+If you find bugs or have suggestions, feel free to open an issue or PR.
