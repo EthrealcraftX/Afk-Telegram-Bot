@@ -8,5 +8,5 @@
   "enableForceSub": true,
   "maxProjectsPerUser": 2,
   "autoDeleteAfterHours": 3,
-  "apiToken": "8e0dfe5278dff29cdb86f54b2c4678fdf1ee5854dfd691b7"
+  "apiToken": "you can take api token from console by running server.js(you can install from https://github.com/EthrealcraftX/Minecraft-java-bedrock-Afk-bot-website.git)"
 }
